@@ -177,3 +177,20 @@
 .bottom-4 {
     bottom: var(--size-4);
 }
+
+/* Miscellaneous */
+.card {
+    transition: box-shadow linear .1s;
+}
+
+.card h1 {
+    transition: color ease .6s;
+}
+
+.card:hover {
+    box-shadow: 16px 16px 0 rgba(0, 0, 0, 1);
+}
+
+.card:hover h1 {
+    color: var(--yellow);
+}
