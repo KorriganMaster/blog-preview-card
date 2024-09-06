@@ -1,0 +1,179 @@
+:root {
+    /* Colors */
+    --white: #ffffff;
+    --yellow: #f4d04e;
+    --gray-500: #6b6b6b;
+    --gray-950: #111111;
+
+    /* Font weights */
+    --regular: 400;
+    --medium: 500;
+    --extra-bold: 800;
+
+    /* Sizes */
+    --size-1: .25rem; /* 4px */
+    --size-2: .5rem; /* 8px */
+    --size-2\.5: .625rem; /* 10px */
+    --size-2\.75: .6875rem; /* 11px */
+    --size-3: .75rem; /* 12px */
+    --size-3\.5: .875rem; /* 14px */
+    --size-4: 1rem; /* 16px */
+    --size-5: 1.25rem; /* 20px */
+    --size-6: 1.5rem; /* 24px */
+    --size-8: 2rem; /* 32px */
+    --size-96: 24rem; /* 384px */
+}
+
+/* Initialise to default values */
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--gray-950);
+    font-size: var(--size-4);
+    font-weight: var(--regular);
+    box-sizing: border-box;
+    font-family: "Figtree";
+    line-height: 150%;
+}
+
+/* Flexbox */
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-3 {
+    gap: var(--size-3);
+}
+
+.gap-6 {
+    gap: var(--size-6);
+}
+
+/* Background colors */
+.bg-white {
+    background-color: var(--white);
+}
+
+.bg-yellow {
+    background-color: var(--yellow);
+}
+
+/* Font sizes */
+.text-2\.75 {
+    font-size: var(--size-2\.75);
+}
+
+.text-3\.5 {
+    font-size: var(--size-3\.5);
+}
+
+.text-4 {
+    font-size: var(--size-4);
+}
+
+.text-6 {
+    font-size: var(--size-6);
+}
+
+/* Font weights */
+.font-medium {
+    font-weight: var(--medium);
+}
+
+.font-extrabold {
+    font-weight: var(--extra-bold);
+}
+
+/* Text colors */
+.gray-500 {
+    color: var(--gray-500);
+}
+
+.gray-950 {
+    color: var(--gray-950);
+}
+
+/* Heights */
+.h-8 {
+    height: var(--size-8);
+}
+
+.h-dvh {
+    height: 100dvh;
+}
+
+/* Widths */
+.w-8 {
+    width: var(--size-8);
+}
+
+.w-96 {
+    width: var(--size-96);
+}
+
+/* Paddings */
+.p-6 {
+    padding: var(--size-6);
+}
+
+.px-3 {
+    padding-left: var(--size-3);
+    padding-right: var(--size-3);
+}
+
+.py-1 {
+    padding-top: var(--size-1);
+    padding-bottom: var(--size-1);
+}
+
+/* Borders */
+.border {
+    border-width: 1px;
+}
+
+.border-solid {
+    border-style: solid;
+}
+
+.border-gray-950 {
+    border-color: var(--gray-950);
+}
+
+/* Border radiuses */
+.rounded-1 {
+    border-radius: var(--size-1);
+}
+
+.rounded-5 {
+    border-radius: var(--size-5);
+}
+
+.rounded-10 {
+    border-radius: var(--size-2\.5);
+}
+
+/* Box shadow */
+.shadow {
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 1);
+}
+
+/* Positions */
+.fixed {
+    position: fixed;
+}
+
+.bottom-4 {
+    bottom: var(--size-4);
+}
