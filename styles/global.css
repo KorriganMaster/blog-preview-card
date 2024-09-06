@@ -24,6 +24,11 @@
     --size-96: 24rem; /* 384px */
 }
 
+@font-face {
+    font-family: "Figtree";
+    src: url("../assets/fonts/static/Figtree-SemiBold.ttf"), url("../assets/fonts/static/Figtree-ExtraBold.ttf");
+}
+
 /* Initialise to default values */
 * {
     margin: 0;
