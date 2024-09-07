@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-![](./screenshot-hover.jpg)
+![](./assets/images/screenshot.jpg)
+![](./assets/images/screenshot-hover.jpg)
 
 ### Links
 
